@@ -1,0 +1,72 @@
+h1 {color: #88ff00;
+    margin: 40px;
+      }  /* Hex - Colors in class we will be using  */
+
+
+body {background-color: #aaaaaa;
+      /* background-image: url("../images/hinds_hall.jpg"); */
+      background-size: 115%;
+      }
+
+a {
+      color: #06f8af;
+      }
+
+p {
+   padding: 20px;
+   border: 2px solid #eeeeee;
+}
+
+nav {padding: 10px;
+     background-color: #079bf1;
+     margin-bottom: 30px;
+}
+
+nav a:hover {background-color:#88ff00}
+
+.evenrow {background-color: #808080;}
+
+table {
+      margin-bottom: 30px;
+}
+
+.img1 {
+      float: left;
+      width: 135px;
+      margin-right: 10px;
+}
+.clear {
+      clear: both;
+}
+
+
+/* .copyright {
+      float: left;
+}
+
+.quote {
+      float: right;
+
+} */
+
+div {
+      padding: 25px;
+  }
+
+.row, .row2{
+      display: flex;
+}
+.clear2 {
+      clear: both;
+}
+
+.layout, .layout2 {
+      display: flex;
+      background-color: #ffffff;
+      border-radius: 25px;
+}
+
+.map {
+      margin-left: 350px;
+      flex-flow: row wrap;
+}
