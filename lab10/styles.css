@@ -49,6 +49,9 @@ table {
       clear: both;
 }
 
+.bioheader {
+      margin: 0 auto;
+}
 
 /* .copyright {
       float: left;
