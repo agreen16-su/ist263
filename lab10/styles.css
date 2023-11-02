@@ -73,13 +73,3 @@ div {
       margin-left: 350px;
       flex-flow: row wrap;
 }
-.footer div {display: flex;}
-
-.split {
-      justify-content: space-around;
-}
-
-.split div {
-      display: flex;
-      padding: 20px;
-  }
