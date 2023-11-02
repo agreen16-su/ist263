@@ -40,11 +40,11 @@ table {
 }
 
 .img1 {
-      float: left;
       width: 135px;
-      margin-right: 10px;
       max-width: 100%;
 }
+
+
 .clear {
       clear: both;
 }
@@ -52,15 +52,6 @@ table {
 .bioheader {
       margin: 0 auto;
 }
-
-/* .copyright {
-      float: left;
-}
-
-.quote {
-      float: right;
-
-} */
 
 div {
       padding: 25px;
