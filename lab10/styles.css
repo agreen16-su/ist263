@@ -43,6 +43,7 @@ table {
       float: left;
       width: 135px;
       margin-right: 10px;
+      max-width: 100%;
 }
 .clear {
       clear: both;
