@@ -18,10 +18,15 @@ header {
 
 .slogan {
     font-size: 30px;
+    color: #ffc0cbd2;
 }
 
 .nav-link {
   color: #ffffff!important;
+}
+
+.navbar {
+  background: #808080;
 }
 
 /* End Of nav design*/
@@ -141,11 +146,12 @@ body {
 
 .wwad {
     text-align: center;
-    background-color: #808080;
+    background-color: #ffffff;
     padding: 2%;
     margin: 0;
     font-size: 20px;
 }
+
 
 @media only screen and (max-width: 500px) {
   #value-proposition {
@@ -378,6 +384,14 @@ th {
   display: flex;
   background-color: #d3d3d3;
   align-content: space-between;
+}
+
+.contact-us {
+  text-align: center;
+  background-color: #808080;
+  padding: 2%;
+  margin: 0;
+  font-size: 38px;
 }
 
 .myForm {
