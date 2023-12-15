@@ -269,6 +269,11 @@ each of the slides */
 
 /* Start of Services body design */
 
+.our-services {
+  display: block;
+  background-image: url();
+}
+
 .container-contact {
   display: flex;
   background-color: #d3d3d3;
