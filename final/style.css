@@ -46,32 +46,6 @@ body {
     /* background-image: "../images/homepage-image.jpg"; */
 }
 
-#hamicon {
-  width: 40px;
-  cursor: pointer;
-}
-
-#close {cursor: pointer;}
-
-@media only screen and (min-width: 800px){
-  #hamicon, #close {display: none;}
-}
-
-@media only screen and (max-width: 799px) {
-  a {
-      display: block;
-      padding: 5px;
-      border: 1px solid #333333;
-  }
-  #navlinks {display: none;}
-  #logo {
-    width: 45%;
-    height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-}
 /* End of Nav Design */
 
 /* Start of Footer Design */
@@ -145,7 +119,7 @@ body {
 
 /* Start Of Home Page */
 #value-proposition {
-    display:inline-flex;
+    display: inline-flex;
     border:3px solid black;
     background-color: #ffffff;
     justify-content: space-around;
@@ -169,15 +143,21 @@ body {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 500px) {
   #value-proposition {
     flex-direction: column;
   }
 
   .slide-number {
-    text-align: center;
     font-size: 12px;
     max-width: 410px;
+  }
+
+  #logo {
+    width: 45%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
@@ -218,7 +198,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 /* Testimonial slideshow */
