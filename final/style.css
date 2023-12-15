@@ -326,9 +326,6 @@ th {
   }
   .myForm {
     flex-direction: column;
-  } 
-  .message textarea {
-    height: 200px;
   }
 }
 
