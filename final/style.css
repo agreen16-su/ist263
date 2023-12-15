@@ -142,7 +142,7 @@ body {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 500px) {
   #value-proposition {
     flex-direction: column;
   }
