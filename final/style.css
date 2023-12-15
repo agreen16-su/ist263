@@ -1,0 +1,358 @@
+/* Start Of nav design Page */
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#logo {
+    width: 15%;
+    margin-right: auto;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slogan {
+    font-size: 25px;
+}
+
+/* End Of nav design*/
+
+/* Start of body design */
+body {
+    background-color: #000000e0;
+    font-family: "Open Sans",Roboto,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+.image {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    background-image: url(https://agreen16-su.github.io/ist263/images/homepage-image.jpg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    padding: 150px;
+    /* background-image: "../images/homepage-image.jpg"; */
+}
+/* End of Nav Design */
+
+/* Start of Footer Design */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.footerbody {
+  display: flex;
+  background: #000000;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 5;
+  min-height: fit-content;
+  background-color: #000000;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #80808000;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 10px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* End of Footer Design */
+
+
+/* Start Of Home Page */
+#value-proposition {
+    display:inline-flex;
+    border:3px solid black;
+    background-color: #ffffff;
+    justify-content: space-around;
+}
+
+#serviceRedirect {
+    color: #1e90ff;
+    background-color: #fff0f0;
+    display: inline;
+}
+
+.serviceRedirectbc {
+    background-color: #ffffff;
+}
+
+#wwad {
+    text-align: center;
+    background-color: #808080;
+    padding: 2%;
+    margin: 0;
+    font-size: 20px;
+}
+
+.prop {
+    display: block;
+    padding: 10%;
+}
+
+.propimg {
+    float: left;
+    max-width: 45px;
+    height: 45px;
+}
+
+.block{
+    display: block;
+}
+
+.text {
+    margin-left: 25px;
+    justify-content: space-evenly;
+  }
+
+.text p {
+    font-size: small;
+}
+
+.textheader {
+    font-size: 52px;
+}
+
+.textdescription {
+    font-size: 1px;
+}
+
+.vp-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+/* Testimonial slideshow */
+/* Styling the area of the slides */
+
+/* Styling the area of the slides */
+
+#slideshow {
+  overflow: hidden;
+  height: 240px;
+  width: 728px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+
+/* Style each of the sides 
+with a fixed width and height */
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+  /* background-color: #d3d3d3; */
+  font-size: 50;
+}
+
+.slide-number {
+  position: relative;
+  text-align: center;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 20;
+  letter-spacing: 0px;
+  line-height: 48px;
+  text-transform: none;
+  color: #252B33;
+}
+
+/* Add animation to the slides */
+
+.slide-wrapper {
+   
+  /* Calculate the total width on the
+basis of number of slides */
+  width: calc(728px * 4);
+   
+  /* Specify the animation with the
+duration and speed */
+  animation: slide 20s ease infinite;
+}
+
+/* Define the animation 
+for the slideshow */
+
+@keyframes slide {
+   
+  /* Calculate the margin-left for 
+each of the slides */
+  20% {
+      margin-left: 0px;
+  }
+  40% {
+      margin-left: calc(-728px * 1);
+  }
+  60% {
+      margin-left: calc(-728px * 2);
+  }
+  80% {
+      margin-left: calc(-728px * 3);
+  }
+}
+/* End of Testimonial slideshow */
+/* End Of Home Page */
+
+
+/* Start of Services body design */
+
+.container-contact {
+  display: flex;
+  background-color: #d3d3d3;
+  align-content: space-between;
+}
+
+.myForm {
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  padding: 1.8em;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+.message > textarea {
+ flex: 1; 
+ min-width: 18em;
+}
+.contact {
+   flex: 1; 
+  order: 1;
+   margin-right: 2em; 
+}
+.contact input {
+  width: 100%;
+}
+.contact input,
+.contact button {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.contact button {
+ background: gray;
+ color: white;
+ border: 0;
+}
+
+
+/* End of Services body design */
+
+
+/* Start of About Us  design */
+
+#profile {
+  border-radius: 50%;
+  max-width: 85%;
+  height: 195px;
+  margin: 15px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-about {
+  display: block;
+}
+
+.container-about-body {
+  border: 3px solid #808080;
+}
+.container-about-body h1{
+  text-align: center;
+  display: block;
+  background-color: #808080;
+}
+
+.container-about-body p{
+  text-align: left;
+  margin: 15px;
+  
+}
+
+.container-about-button {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-about-button p {
+  margin-right: 5px;
+}
+
+/* Start of About Us  design */
+
