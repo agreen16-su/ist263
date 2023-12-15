@@ -275,6 +275,7 @@ each of the slides */
 .svc-text {
   margin-left: 25px;
   justify-content: space-evenly;
+  flex: wr;
 }
 
 .svc-text p {
