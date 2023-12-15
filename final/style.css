@@ -45,6 +45,33 @@ body {
     padding: 150px;
     /* background-image: "../images/homepage-image.jpg"; */
 }
+
+#hamicon {
+  width: 40px;
+  cursor: pointer;
+}
+
+#close {cursor: pointer;}
+
+@media only screen and (min-width: 800px){
+  #hamicon, #close {display: none;}
+}
+
+@media only screen and (max-width: 799px) {
+  a {
+      display: block;
+      padding: 5px;
+      border: 1px solid #333333;
+  }
+  #navlinks {display: none;}
+  #logo {
+    width: 45%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
 /* End of Nav Design */
 
 /* Start of Footer Design */
@@ -142,7 +169,7 @@ body {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   #value-proposition {
     flex-direction: column;
   }
@@ -150,7 +177,7 @@ body {
   .slide-number {
     text-align: center;
     font-size: 12px;
-    width: 410px;
+    max-width: 410px;
   }
 
 }
