@@ -267,7 +267,7 @@ each of the slides */
   align-items: center;
 }
 
-#svc-body {
+.svc-body {
   border: #9fa6b256;
   border-style: solid;
 }
