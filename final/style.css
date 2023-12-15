@@ -17,7 +17,7 @@ header {
 }
 
 .slogan {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 /* End Of nav design*/
@@ -40,6 +40,8 @@ body {
     text-align: center;
     color: #ffffff;
     background-image: url(https://agreen16-su.github.io/ist263/images/homepage-image.jpg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 150px;
     /* background-image: "../images/homepage-image.jpg"; */
 }
