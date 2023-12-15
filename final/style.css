@@ -146,7 +146,7 @@ body {
 
 .wwad {
     text-align: center;
-    background-color: #808080;
+    background-color: #000000;
     color: #ffffff;
     padding: 1%;
     margin: 0;
@@ -368,7 +368,7 @@ th {
 
 .our-services {
   text-align: center;
-  background-color: #808080;
+  background-color: #000000;
   color: #ffffff;
   padding: 1%;
   margin: 0;
@@ -390,7 +390,8 @@ th {
 
 .contact-us {
   text-align: center;
-  background-color: #808080;
+  background-color: #000000;
+  color: #ffffff;
   padding: 2%;
   margin: 0;
   font-size: 38px;
