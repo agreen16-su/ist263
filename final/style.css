@@ -278,8 +278,15 @@ th {
   width: 25%;
   height: 225px;
   margin: 10px;
+  position: relative;
 }
 
+@media only screen and (max-width: 900px) {
+  .svc-propimg {
+      float:none;
+      width: max-content;
+  }
+}
 .container-service-button {
   margin: 5px;
   display: flex;
@@ -293,7 +300,7 @@ th {
 }
 
 @media screen and (max-width: 700px) {
-  .svc-body, .svc-body img {   
+  .sv-cnt  {   
     flex-direction: column;
   }
 }
@@ -311,6 +318,18 @@ th {
 .svc-textheader {
   font-size: 52px;
   color: #3B71CA;
+}
+
+@media only screen and (max-width: 900px) {
+  .svc-text p {
+    font-size: medium;
+  }
+  .myForm {
+    flex-direction: column;
+  } 
+  .message textarea {
+    height: 200px;
+  }
 }
 
 .svc-textdescription {
