@@ -68,16 +68,17 @@ body {
 .footer {
   position: relative;
   width: 100%;
-  background: #80808000;
+  background: #455A64;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
+  padding: 20px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.social-icon,
+
 .menu {
   position: relative;
   display: flex;
@@ -87,20 +88,8 @@ body {
   flex-wrap: wrap;
 }
 
-.social-icon__item,
 .menu__item {
   list-style: none;
-}
-
-.social-icon__link {
-  font-size: 2rem;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-}
-.social-icon__link:hover {
-  transform: translateY(-10px);
 }
 
 .menu__link {
@@ -124,8 +113,6 @@ body {
   font-size: 1rem;
   font-weight: 300;
 }
-/* End of Footer Design */
-
 
 /* Start Of Home Page */
 #value-proposition {
@@ -263,17 +250,61 @@ each of the slides */
       margin-left: calc(-728px * 3);
   }
 }
-/* End of Testimonial slideshow */
-/* End Of Home Page */
 
 
 /* Start of Services body design */
-
-.our-services {
-  display: block;
-  background-image: url();
+.svc-propimg {
+  float: left;
+  width: 25%;
+  height: 225px;
+  margin: 10px;
 }
 
+.container-service-button {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#svc-body {
+  border: #9fa6b256;
+  border-style: solid;
+}
+
+.svc-text {
+  margin-left: 25px;
+  justify-content: space-evenly;
+}
+
+.svc-text p {
+  font-size: small;
+}
+
+.svc-textheader {
+  font-size: 52px;
+  color: #3B71CA;
+}
+
+.svc-textdescription {
+  font-size: 1px;
+}
+
+.our-services {
+  text-align: center;
+  background-color: #808080;
+  padding: 2%;
+  margin: 0;
+  font-size: 20px;
+}
+.sv-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* Start of Contact */
 .container-contact {
   display: flex;
   background-color: #d3d3d3;
@@ -315,11 +346,7 @@ each of the slides */
 }
 
 
-/* End of Services body design */
-
-
 /* Start of About Us  design */
-
 #profile {
   border-radius: 50%;
   max-width: 85%;
@@ -358,6 +385,4 @@ each of the slides */
 .container-about-button p {
   margin-right: 5px;
 }
-
-/* Start of About Us  design */
 
