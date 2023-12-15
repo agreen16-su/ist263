@@ -142,6 +142,19 @@ body {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+  #value-proposition {
+    flex-direction: column;
+  }
+
+  .slide-number {
+    text-align: center;
+    font-size: 12px;
+    width: 410px;
+  }
+
+}
+
 .prop {
     display: block;
     padding: 10%;
@@ -284,7 +297,9 @@ th {
 @media only screen and (max-width: 900px) {
   .svc-propimg {
       float:none;
-      width: max-content;
+      width: 440px;
+      height: 280px;
+
   }
 }
 .container-service-button {
