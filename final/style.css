@@ -302,7 +302,7 @@ th, td {
 
 th {
   background-color: #f2f2f2;
-  color: #3B71CA;
+  color: #000000e4;
 }
 .svc-propimg {
   float: left;
@@ -372,7 +372,7 @@ th {
   color: #ffffff;
   padding: 1%;
   margin: 0;
-  font-size: 20px;
+  font-size: 22px;
 }
 .sv-cnt {
   display: flex;
